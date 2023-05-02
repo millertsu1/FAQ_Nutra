@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+body {
+  background: #0d0c57;
+}
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main__title, .main__paragraph{
+    color: #fff;
+    text-align: center;
+}
+.acordeon input {
+  display: none;
+}
+.acordeon__titulo {
+  display: block;
+  padding: 15px;
+  background-color: steelblue;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 7px;
+  border-bottom: 1px solid#fff;
+}
+.acordeon__titulo:hover {
+  background: rgba(70, 130, 180, 0.8);
+}
+.acordeon__contenido {
+  height: 0;
+  color: #fff;
+  overflow: hidden;
+  margin: 0;
+  transition: all 0.5s
+}
+.btn__copiar{
+    margin-top: 20px;
+    background-color: steelblue;
+    color: #fff;
+    padding: 0 25px;
+    border-radius: 5px;
+}
+.acordeon input:checked ~ .acordeon__contenido {
+  height: auto;
+  margin: 15px 0;
+}
+

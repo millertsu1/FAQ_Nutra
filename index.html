@@ -1,0 +1,229 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>FAQ Soportes</title>
+</head>
+
+<body>
+
+    <div class="acordeon container">
+        <h1 class="main__title">FAQ Soporte Salas Zoom</h1>
+        <p class="main__paragraph">Puedes acceder a cada pregunta se desplegaran las respuestas mas frecuentes que
+            podras copiar de manera rapida para poder dar respuesta durantes las charlas de zoom</p>
+
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item1">
+            <label for="item1" class="acordeon__titulo">¿Cómo comparto mi pantalla?</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta1">En la reunión, haga clic en Compartir y seleccione la pantalla que le gustaría compartir.
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta1')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+        </div>
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item2">
+            <label for="item2" class="acordeon__titulo">¿Puedo grabar mi reunión?</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta2">De manera predeterminada, todas las grabaciones locales se guardan en la carpeta de documentos. Las grabaciones en la nube se pueden encontrar en la página Grabaciones del portal web de Zoom. Más información sobre cómo localizar las grabaciones.
+                    
+                </li>
+
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta2')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+
+
+        </div>
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item3">
+            <label for="item3" class="acordeon__titulo">¿Dónde puedo encontrar mi grabación?</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta3">De manera predeterminada, todas las grabaciones locales se guardan en la carpeta de documentos. Las grabaciones en la nube se pueden encontrar en la página Grabaciones del portal web de Zoom.
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta3')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+        </div>
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item4">
+            <label for="item4" class="acordeon__titulo">Hay eco en mi reunión.</label>
+            <p class="acordeon__contenido">
+            <ul class="acordeon__contenido">
+                <li id="respuesta4">Muchos factores pueden provocar eco, como por ejemplo, que un participante esté conectado al audio de la reunión en varios dispositivos o que dos participantes que se hayan unido desde la misma ubicación. Más información sobre las causas más comunes del eco en el audio.
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta4')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+        </div>
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item5">
+            <label for="item5" class="acordeon__titulo">Mi vídeo o cámara no está funcionando.</label>
+            <p class="acordeon__contenido">
+            <ul class="acordeon__contenido">
+                <li id="respuesta5">Asegúrese de que los demás programas que utilizan la cámara no estén usando la cámara o estén cerrados. Esto puede incluir aplicaciones de cámara preinstaladas, otro software de videoconferencia o sitios web que utilizan su cámara.
+Reinicie el equipo.
+Desinstale el cliente de Zoom y vuelva a instalar la versión más reciente; obténgala de nuestro Centro de descargas.
+Visite la página de soporte y descargas de su dispositivo para actualizar los controladoresde la cámara
+                        </li>
+                    </ol>
+                </li>
+
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta5')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+        </div>
+
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item6">
+            <label for="item6" class="acordeon__titulo">Cómo levantar la mano virtualmente</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta6">Puede utilizar la característica <strong>Levantar la mano</strong> para responder auna preguntainformal o para indicar al anfitrión que tiene una pregunta o necesita ayuda.
+En la barra de herramientas de controles del seminario web, haga clic en <strong>Levantar la mano.</strong>
+Se notificará al anfitrión y a los demás panelistas que levantó la mano.</li>
+Si el anfitrión le permite hablar, es posible que se le pida que reactive el audio. Mientras no está silenciado, su foto de perfil y nombre se muestran al anfitrión y a los panelistas.
+Solo su nombre se muestra a otros asistentes.
+Haga clic en <strong>Levantar la mano</strong> en la barra de herramientas de controles del seminario web para bajarla si es necesario.</li>
+                    
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta6')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+        </div>
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item7">
+            <label for="item7" class="acordeon__titulo">Cómo conectarse al audio</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta7">Al unirse al seminario web, se le pedirá que se conecte al audio.
+Haga clic en Unirse mediante el audio del equipo.
+Es posible que aparezcan otras opciones, como llamar al seminario web o que lo llamen al seminario web, pero esto depende de las opciones de audio que haya proporcionado el anfitrión.
+(Opcional) Junto al botón Configuración de audio, haga clic en y seleccione entre las opciones de salida de audio disponibles, como altavoces auriculares u otros dispositivos bluetooth.
+Si el anfitrión le permite reactivar el audio, se le pedirá que lo haga. Después de reactivar el audio, haga clic en Silenciar/Reactivar audio en la esquina inferior izquierda de la barra de herramientas de los controles del seminario web, según sea necesario, para controlar su audio.
+<small>Nota: El anfitrión puede deshabilitar su capacidad para reactivar audio durante la reunión. Si es así, se le indicará que se ponga en contacto con el anfitrión a través del chat para reactivar su audio.</small>
+                    
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta7')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+        </div>
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item8">
+            <label for="item8" class="acordeon__titulo">Cómo chatear en una reunion.</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta8">Los asistentes al seminario web pueden chatear con otros asistentes, el anfitrión, el coanfitrión y los panelistas durante el seminario web.
+En la barra de herramientas de controles del seminario web, haga clic en Chat.
+Haga clic en el cuadro de entrada de texto e introduzca su mensaje.
+(Opcional) Haga clic en el menú desplegable Para: para seleccionar a quién enviar su mensaje. 
+<small>Nota: las opciones disponibles pueden estar restringidas por el anfitrión.</small>
+Presione Introducir para enviar su mensaje.
+                    
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta8')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+        </div>
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item9">
+            <label for="item9" class="acordeon__titulo">Cómo hacer preguntas al anfitrión y a los panelistas</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta9">Envíe preguntas para que los anfitriones y los panelistas respondan durante el seminario web.
+En la barra de herramientas de controles del seminario web, haga clic en Preguntas y respuestas.
+Haga clic en el cuadro de entrada de texto e introduzca su pregunta.
+(Opcional) Seleccione la casilla de verificación Enviar de forma anónima para enviar la pregunta sin su nombre asociado.
+Haga clic en Enviar para enviar la pregunta.Su pregunta enviada se muestra con las preguntas que enviaron otros asistentes al anfitrión y a los panelistas. Es posible que usted también pueda verlas si el anfitrión permite que las preguntas no respondidas sean visibles.
+Si el anfitrión lo permite, puede hacer clic en el icono de pulgar hacia arriba para votar a favor de la pregunta o hacer clic en Comentar para agregar detalles o preguntas adicionales a una pregunta enviada.
+
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta9')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+        </div>
+
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item10">
+            <label for="item10" class="acordeon__titulo">¿Por qué puedo ver la pantalla u oír el audio (pero no ambas cosas)?</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta10">Debe  cerrar  las aplicaciones abiertas en diferentes dispositivos ya que se permite ingresar por un solo equipo este puede ser  móvil, celular , o computador.
+
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta10')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+        </div>
+
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item11">
+            <label for="item11" class="acordeon__titulo">No estoy escuchando</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta11"> Por favor, revisa tu conexión, no tenemos reporte de fallas por parte de los otros participantes. Y de persistir nos informa y le indicamos al equipo técnico.
+
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta11')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+            
+        </div>
+
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item12">
+            <label for="item12" class="acordeon__titulo">No he llenado la encuesta de asistencia,  como puedo reportar mi asistencia</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta12"> Durante la clases se habilitaran espacios para poder llenar la encuesta de asistencia por favor estar atentos, al inicio y al final de esta charla se les facilitara  esta encuesta.
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta12')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+            
+        </div>
+
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item13">
+            <label for="item13" class="acordeon__titulo">Mi camara y Microfono estan desactivados, como los puedo activar?</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta13"> La camara y microfono estan desactivados por defecto al iniciar la sesion, si deseas activarlos puedes solicitar esta activacion por medio del chat,asi el soporte te hablitara el audio si lo cree pertinente.
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta13')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+            
+        </div>
+
+        <div class="acordeon__item">
+            <input type="radio" name="acordeon" id="item14">
+            <label for="item14" class="acordeon__titulo">Me facilitas los datos de  Soporte o Mesa de Ayuda</label>
+            <ul class="acordeon__contenido">
+                <li id="respuesta14">  Puedes comunicarte al whatsapp +57 316 0268952 o al correo mesadeayuda@nutrapp.com.co
+                </li>
+                <button class="btn__copiar" onclick="copiarRespuesta('respuesta14')">Copiar
+                    Respuesta
+                </button>
+            </ul>
+            
+        </div>
+    </div>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
